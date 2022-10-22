@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    display: grid;
+    background-image: url('knife.jpg');
+    align-items: center;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  div {
+      background: green;
+    max-width: 500px;
+    height: 60%;
+    padding: 5px;
+    border-radius: 8px;
+  }
+  p {
+    text-align: center;
+  }
+  h4{
+    text-align: center;
+  }
+  .log{
+    margin: 15px;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  input{
+    margin: 15px;
+    padding: 8px;
+    border: 2px soft-light black;
+    border-radius: 5px;
+  }
+  hr {
+    background: black;
+  }
+  button{
+    background: black;
+    border-radius: 5px;
+    padding: 6px;
+    color: #0f0;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+  #logme{
+    display: center;
+    margin: auto;
+  }
