@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    
+}
+.my-flex {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 1em;
+    flex-direction: row;
+    
+}
+.container{
+    display: flex;
+}
+form{
+    display: flex;
+    /* width: 500px; */
+}
+img{
+    padding-bottom: 30px;
+}
+h2 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-radius: 8px;
+    padding-bottom: 25px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 25px;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-radius: 8px;
+    padding-bottom: 25px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    padding-bottom: 60px;
+    font-weight: 400;
+}
+button{
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px;
+    border: 0;
+    border-radius: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    padding-bottom: 10px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.b1{
+    color: hsl(31, 77%, 52%);
+}
+.b2{
+    color: hsl(184, 100%, 22%);
+}
+.b3{
+    color: hsl(179, 100%, 13%);
+}
+.icons{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.b1:hover {
+  background-color: hsl(31, 77%, 52%);
+    color: white;
+    border-color: white;
+}
+.b2:hover {
+  background-color: hsl(184, 100%, 22%);
+    color: white;
+    border-color: white;
+}
+.b3:hover {
+  background-color: hsl(179, 100%, 13%);
+    color: white;
+    border-color: white;
+}
+button:hover {
+  transition: all 0.3s ease;
+}
